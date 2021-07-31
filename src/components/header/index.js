@@ -9,7 +9,7 @@ export default function Header() {
           <svg
             className="header__logo"
             xmlns="http://www.w3.org/2000/svg"
-            xmlns:xlink="http://www.w3.org/1999/xlink"
+            xmlnsXlink="http://www.w3.org/1999/xlink"
             version="1.1"
             width="3300"
             height="1349.9999999999998"
