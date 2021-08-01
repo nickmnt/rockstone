@@ -1,0 +1,61 @@
+.intro {
+    width: 100%;
+    height: 86vh;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+    &__img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    &__info {
+        background-image: linear-gradient(rgba(0,0,0,.3),rgba(0,0,0,.3));
+        backdrop-filter: blur(4px);
+        position: absolute;
+        width: 100%;
+        height: 12rem;
+        left: 0;
+        bottom: 0;
+    }
+
+    &__info {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    &__infoLeft {
+        font-size: 3rem;
+        color: $color-white;
+    }
+
+    &__infoRight {
+        color: $color-white;
+        font-size: 2rem;
+    }
+
+    &__button {
+        &, &:link, &:visited {
+            font-size: 2rem;
+            color: $color-white;
+            text-decoration: none;
+            text-transform: uppercase;
+            background-color: $color-black;
+            padding: .75rem;
+            margin-left: 2rem;
+            display: inline-block;
+
+            transition: all .2s ease-in;
+        }
+
+        &:hover {
+            color: $color-gold;
+            transform: scale(1.1);
+        }
+    }
+}

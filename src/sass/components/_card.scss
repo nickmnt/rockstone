@@ -1,0 +1,63 @@
+.card {
+    //background-image: linear-gradient(rgba($color-black,.8),rgba($color-black,.8));
+    //background-image: linear-gradient(rgba($color-black, .8),rgba($color-black, .8)),url('../../images/montreal.jfif');
+    //background-image: url('../../images/montreal.jfif');
+    //filter: blur(2px);
+    //background-size: cover;
+    height: 100%;
+    width: 30rem;
+    display: flex;
+    position: relative;
+
+    &__img {
+        position: absolute;
+        top:0;
+        left:0;
+        width: 100%;
+        height: 100%;
+
+        filter: blur(1px);
+        object-fit: cover;
+    }
+    &__header {
+        //margin-top: 1.5rem;
+        font-size: 3rem;
+        font-weight: 600;
+        color: $color-white;
+        transition: .2s all;
+        cursor: pointer;
+        margin-bottom: 2.75rem;
+        margin-top: .5rem;
+
+        &:hover {
+            color: $color-gold;
+            transform: scale(1.1);
+        }
+        z-index: 1;
+    }
+
+    &__container {
+        margin: 1.5rem;
+    }
+
+    &__text {
+        font-size: 1.5rem;
+        font-weight: 400;
+        margin: 2rem;
+        margin-top: 0;
+        z-index: 1;
+    }
+
+    &__info {
+        //position: absolute;
+        top:0;
+        left:0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+        background-color: red;
+        z-index: 1;
+    }
+}
