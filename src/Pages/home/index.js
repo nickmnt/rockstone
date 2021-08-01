@@ -7,6 +7,7 @@ export default function Home() {
         <div className="home">
             <Intro />
             <Locations />
+            <Category />
         </div>
     )
 }
