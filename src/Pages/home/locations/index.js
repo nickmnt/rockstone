@@ -12,9 +12,9 @@ export default function Locations() {
                 </div>
             </div>
             <div className="locations__cities">
-                <Card />
-                <Card />
-                <Card />
+                <Card city="Vancouver"/>
+                <Card city="Montréal"/>
+                <Card city="Toronto"/>
             </div>
         </section>
     )

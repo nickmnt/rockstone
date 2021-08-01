@@ -43,6 +43,14 @@
             font-weight: 700;
             color: $color-grey-dark-2;
         }
+
+        display: inline-block;
+        transition: .2s all;
+
+        &:hover {
+            color: $color-gold;
+            transform: scale(1.1);
+        }
     }
 
     
@@ -74,5 +82,15 @@
         width: 1.5rem;
         height: 1.5rem;
         margin-right: 1rem;
+    }
+
+    &__iconText {
+        cursor: pointer;
+        transition: .2s all;
+
+        &:hover {
+            color: $color-gold;
+            transform: scale(1.1);
+        }
     }
 }
