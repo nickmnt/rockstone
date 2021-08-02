@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/rockstone/static/css/main.3fe7cb15.chunk.css",
+    "main.css": "/rockstone/static/css/main.8f845e45.chunk.css",
     "main.js": "/rockstone/static/js/main.efc95ecc.chunk.js",
     "main.js.map": "/rockstone/static/js/main.efc95ecc.chunk.js.map",
     "runtime-main.js": "/rockstone/static/js/runtime-main.26f70dbc.js",
@@ -8,14 +8,14 @@
     "static/js/2.1a29f76d.chunk.js": "/rockstone/static/js/2.1a29f76d.chunk.js",
     "static/js/2.1a29f76d.chunk.js.map": "/rockstone/static/js/2.1a29f76d.chunk.js.map",
     "index.html": "/rockstone/index.html",
-    "static/css/main.3fe7cb15.chunk.css.map": "/rockstone/static/css/main.3fe7cb15.chunk.css.map",
+    "static/css/main.8f845e45.chunk.css.map": "/rockstone/static/css/main.8f845e45.chunk.css.map",
     "static/js/2.1a29f76d.chunk.js.LICENSE.txt": "/rockstone/static/js/2.1a29f76d.chunk.js.LICENSE.txt",
     "static/media/main.scss": "/rockstone/static/media/vancouver.02895401.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.26f70dbc.js",
     "static/js/2.1a29f76d.chunk.js",
-    "static/css/main.3fe7cb15.chunk.css",
+    "static/css/main.8f845e45.chunk.css",
     "static/js/main.efc95ecc.chunk.js"
   ]
 }
