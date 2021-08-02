@@ -11,6 +11,8 @@
 
     transition: all 0.2s ease-in;
 
+    position: relative;
+
     &:hover {
         transform: scale(1.02);
         box-shadow: 0 0 1.5rem rgba($color-gold-dark, 0.3);
@@ -51,5 +53,15 @@
     &__caption {
         font-weight: 400;
         font-size: 1.2rem;
+    }
+
+    &__button {
+        font-size: 1.5rem;
+        font-weight: 600;
+        color: $color-white;
+        background-color: $color-black;
+        
+        text-decoration: none;
+
     }
 }
