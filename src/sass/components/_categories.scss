@@ -1,0 +1,16 @@
+.categories {
+    height: 170rem;
+    width: 100%;
+    overflow: hidden;
+    background-image: linear-gradient(rgba($color-black, 0.97), rgba($color-black, 0.94));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    &__container {
+        width: 120rem;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 2rem;
+    }
+}

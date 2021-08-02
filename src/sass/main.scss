@@ -18,9 +18,14 @@ Grey dark 3: #999
 
 
 @import "base";
+@import "page";
 
 
 @import "components/header";
 @import "components/intro";
 @import "components/locations";
 @import "components/card";
+@import "components/property";
+@import "components/categories";
+@import "components/footer";
+@import "utility/fade";

@@ -7,7 +7,7 @@ export default function Locations() {
             <div className="locations__top">
                 <img src="./images/Canada_flag_map.svg" alt="" className="locations__img" />
                 <div className="locations__header">
-                    <span className="locations__bold">
+                    <span className="locations__bold fade-in fade-in--slow">
                     No.1</span> Quality Of Life
                 </div>
             </div>

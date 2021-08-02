@@ -1,0 +1,12 @@
+.fade-in {
+    opacity: 0;
+    transition: opacity .75s ease-in;
+
+    &--slow {
+        transition: opacity 1s ease-in;
+    }
+}
+
+.fade-in.appear {
+    opacity: 1;
+}

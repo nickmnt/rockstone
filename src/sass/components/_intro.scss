@@ -21,22 +21,71 @@
         height: 12rem;
         left: 0;
         bottom: 0;
+
+        @media only screen and (max-width:31.25em) {
+            height: 11rem;
+        }
+
+        @media only screen and (max-width:25em) {
+            height: 9rem;
+        }
+
+        @media only screen and (max-width:21.875em) {
+            height: 7rem;
+        }
     }
 
     &__info {
         display: flex;
         justify-content: space-around;
         align-items: center;
+        
+        @media only screen and (max-width:56.25em) {
+            justify-content: center;
+        }
+        
+
     }
 
     &__infoLeft {
         font-size: 3rem;
         color: $color-white;
+
+
+        @media only screen and (max-width:56.25em) {
+            margin-right: 1rem;
+            display: none;
+        }
     }
 
     &__infoRight {
         color: $color-white;
         font-size: 2rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        @media only screen and (max-width:31.25em) {
+            font-size: 1.4rem;
+        }
+
+        @media only screen and (max-width:25em) {
+            font-size: 1.2rem;
+        }
+
+        @media only screen and (max-width:21.875em) {
+            font-size: 1rem;
+        }
+
+        @media only screen and (max-width:17.5em) {
+            font-size: 1rem;
+        }
+
+        @media only screen and (max-width:17.5em) {
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
     }
 
     &__button {
@@ -50,12 +99,32 @@
             margin-left: 2rem;
             display: inline-block;
 
-            transition: all .2s ease-in;
+            transition: all .2s ease-in;        
+            
+            @media only screen and (max-width:31.25em) {
+                font-size: 1.5rem;
+            }
+
+            @media only screen and (max-width:25em) {
+                font-size: 1.3rem;
+            }
+
+            @media only screen and (max-width:21.875em) {
+                font-size: 1.1rem;
+            }
+
+            @media only screen and (max-width:17.5em) {
+                font-size: 1rem;
+                margin-top: .75rem;
+                margin-left: 0;
+            }
         }
 
         &:hover {
             color: $color-gold;
             transform: scale(1.1);
         }
+
+
     }
 }

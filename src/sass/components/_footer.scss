@@ -1,0 +1,61 @@
+.footer {
+    height: 50rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-image: linear-gradient(rgba($color-gold-dark, 1), rgba($color-gold,1), rgba($color-gold,.53));
+
+    &__container {
+        width: 110rem;
+        height: 35rem;
+        display: flex;
+
+        &>*:not(:last-child) {
+            margin-right: 10rem;
+        }
+    }
+
+    &__left, &__mid {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        //justify-content: center;
+    }
+
+    &__item {
+        &,&:link,&:visited {
+            color: $color-black;
+            text-decoration: none;
+            font-size: 2.25rem;
+            font-weight: 400;
+            background-color: black;
+            margin-bottom: .5rem;
+            padding: 1rem;
+            color: $color-white;
+        }
+
+        transition: all .2s;
+
+        &:hover {
+            font-size: 2.5rem;
+            color: $color-gold;
+        }
+    }
+
+    &__right {
+        //background-color: red;
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        justify-content: center;
+    }
+
+    &__logo {
+        //background-color: green;
+        width: 25rem;
+        height: 10rem;
+        margin-bottom: 1.75rem;
+    }
+}

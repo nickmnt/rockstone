@@ -6,6 +6,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    
 
     &__container {
         //background-color: green;
@@ -26,6 +27,30 @@
         & > *:not(:last-child) {
             margin-right: 2rem;
         }
+
+        @media only screen and (max-width:50em) {
+            display: none;
+        }
+    }
+
+    &__burger {
+        width: 4rem;
+        height: 4rem;
+        display: none;
+
+        @media only screen and (max-width:50em) {
+            display: inline-block;
+        }
+
+        @media only screen and (max-width:26.875em) {
+            width: 3rem;
+            height: 3rem;
+        }
+
+        @media only screen and (max-width:18.75em) {
+            width: 2rem;
+            height: 2rem;
+        }
     }
 
     &__logo {
@@ -33,6 +58,16 @@
         height: 6rem;
         margin-bottom: .9rem;
         margin-right: 4rem;
+
+        @media only screen and (max-width:26.875em) {
+            width: 12rem;
+            height: 4.5rem;
+        }
+
+        @media only screen and (max-width:18.75em) {
+            width: 8rem;
+            height: 3rem;
+        }
     }
 
     &__link {
@@ -56,14 +91,26 @@
     
     &__left {
         display: flex;
+
+        @media only screen and (max-width:50em) {
+            justify-self: flex-end;
+        }
     }
     
     &__right {
         display: flex;
         align-items: center;
 
-        & > *:first-child {
-            margin-right: 2rem;
+        
+    }
+
+    &__firstIconGroup {
+        margin-right: 1rem;
+    }
+
+    &__secondIconGroup {
+        @media only screen and (max-width:70.5em) {
+            margin-right: 1rem;
         }
     }
     
@@ -76,6 +123,10 @@
         height: 100%;
         text-decoration: none;
         text-transform: uppercase;
+
+        @media only screen and (max-width:50em) {
+            display: none;
+        }
     }
 
     &__icon {
