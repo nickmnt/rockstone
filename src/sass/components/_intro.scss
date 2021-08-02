@@ -91,6 +91,7 @@
     &__button {
         &, &:link, &:visited {
             font-size: 2rem;
+            font-weight: 600;
             color: $color-white;
             text-decoration: none;
             text-transform: uppercase;
