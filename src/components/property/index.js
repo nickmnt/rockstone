@@ -15,6 +15,7 @@ export default function Property() {
                 <div className="property__caption">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi dolor ex necessitatibus. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maxime, impedit, tempora odit asperiores nam sed porro nobis eveniet neque incidunt quas quo, perspiciatis dicta. Harum dolor ipsa ea eum perspiciatis.
                 </div>
+                <button className="property__button">enquire</button>
             </div>
         </div>
     )

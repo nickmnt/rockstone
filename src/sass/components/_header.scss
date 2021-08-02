@@ -58,6 +58,11 @@
         height: 6rem;
         margin-bottom: .9rem;
         margin-right: 4rem;
+        cursor: pointer;
+
+        &:active {
+            opacity: .5;
+        }
 
         @media only screen and (max-width:26.875em) {
             width: 12rem;

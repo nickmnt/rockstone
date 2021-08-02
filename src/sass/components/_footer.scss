@@ -8,7 +8,7 @@
     background-image: linear-gradient(rgba($color-gold-dark, 1), rgba($color-gold,1), rgba($color-gold,.53));
 
     &__container {
-        width: 110rem;
+        width: 105rem;
         height: 35rem;
         display: flex;
 
@@ -21,6 +21,7 @@
         display: flex;
         flex-direction: column;
         height: 100%;
+        flex: 1;
         //justify-content: center;
     }
 
