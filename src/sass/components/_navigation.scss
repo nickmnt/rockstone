@@ -1,0 +1,132 @@
+.navigation {
+    
+    position: relative;
+
+    &__background {
+        position: fixed;
+        top: 0rem;
+        right: 0rem;
+        //transform: translate(-50%,-50%);
+
+        width: .5rem;
+        height: .5rem;
+        background-image: radial-gradient($color-black, $color-grey-dark-1);
+        border-radius: 10000%;
+
+        transition: opacity 0.5s ease-in, transform .5s ease-in .1s, visibility .5s;
+        visibility: hidden;
+        opacity: 0;
+
+        z-index: 1000;
+    }
+
+    &__checkbox {
+        display: none;
+    }
+
+    &__checkbox:checked ~ &__background {
+        transform: scale(1000);
+        //top: 3rem;
+        //right: 3rem;
+    }
+
+    &__checkbox:checked ~ &__lbl &__burger {
+        fill: $color-white;
+        //top: 3rem;
+        //right: 3rem;
+    }
+
+    &__checkbox:checked ~ &__container {
+        visibility: visible;
+        opacity: 1;
+        left: 0;
+        //top: 3rem;
+        //right: 3rem;
+    }
+
+    &__checkbox:checked ~ &__background {
+        visibility: visible;
+        opacity: 1;
+    }
+
+    &__burger {
+        position: absolute;
+        top: 5rem;
+        right:0;
+        transform: translate(-50%,-50%);
+        width: 4rem;
+        height: 4rem;
+        display: none;
+        transition: .5s fill ease-in .5s;
+
+        @media only screen and (max-width:50em) {
+            display: inline-block;
+        }
+
+        @media only screen and (max-width:26.875em) {
+            width: 3rem;
+            height: 3rem;
+        }
+
+        @media only screen and (max-width:18.75em) {
+            width: 2rem;
+            height: 2rem;
+        }
+
+        z-index: 1002;
+    }
+
+    &__container {
+        position: fixed;
+        width: 100vw;
+        height: 100vh;
+        top: 0;
+        left: 0;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        z-index: 1001;
+
+        left: 100vw;
+        visibility: hidden;
+        opacity: 0;
+        transition: left .4s ease-out .5s, opacity 1ms ease-out, visibility .4s;
+        //display: none;
+    }
+
+    &__links {
+        width: 35rem;
+
+        & > *:not(:last-child) {
+            margin-bottom: 1rem;
+        }
+        
+        @media only screen and (max-width:25em) {
+            width: 90vw;
+        }
+    }
+
+    &__link {
+        cursor: pointer;
+        font-size: 3.5rem;
+        background-color: $color-gold;
+        text-transform: uppercase;
+        color: $color-black;
+        padding: 1rem;
+        font-weight: 600;
+        transition: all .2s ease-in;
+
+        &:hover {
+            color: $color-white;
+        }
+
+        @media only screen and (max-width:25em) {
+            font-size: 8.75vw;
+        }
+    }
+
+    &__enquire {
+        font-weight: 800;
+    }
+}
