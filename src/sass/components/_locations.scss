@@ -1,6 +1,14 @@
 .locations {
     width: 100%;
-    height: 100vh;
+    //height: 120vh;
+    padding-top: 12.5rem;
+    padding-bottom: 12.5rem;
+
+    @media only screen and (max-width:33.125em) {
+        padding-top: 16.5vw;
+        padding-bottom: 16.5vw;
+     }
+
     overflow: hidden;
 
     display: flex;
@@ -20,22 +28,49 @@
 
     &__img {
         width: 40rem;
+        @media only screen and (max-width:33.125em) {
+            width: 80vw;
+         }
     }
 
     &__cities {
         margin-top: 5rem;
         //background-color: red;
-        width: 100rem;
-        height: 30rem;
-        display: flex;
-        justify-content: space-between;
+        width: 75vw;
+        //min-width: 40rem;
+        //flex: 1 0 10rem;
+        //height: 30rem;
+        //display: flex;
+        //justify-content: space-between;
         // & > *:not(:last-child) {
         //     margin-right: 3rem;
         // }
+
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+
+        //padding-left: 4rem;
+        //padding-right: 4rem;
+        grid-gap: 4rem;
+         @media only screen and (max-width:68.75em) {
+            grid-template-columns: repeat(2, 1fr);
+         }
+
+         @media only screen and (max-width:44.375em) {
+            grid-template-columns: repeat(1, 1fr);
+         }
     }
 
     &__top {
         align-items: center;
         display: flex;
+
+        @media only screen and (max-width:62.5em) {
+            flex-direction: column;
+         }
+
+         @media only screen and (max-width:33.125em) {
+            font-size: 9.4vw;
+         }
     }
 }

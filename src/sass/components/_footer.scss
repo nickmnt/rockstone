@@ -7,6 +7,19 @@
 
     background-image: linear-gradient(rgba($color-gold-dark, 1), rgba($color-gold,1), rgba($color-gold,.53));
 
+    @media only screen and (max-width:68.75em) {
+        flex-direction: column;
+        height: 55rem;
+    }
+
+    @media only screen and (max-width:45em) {
+        height: 95rem;
+    }
+
+    @media only screen and (max-width:19.375em) {
+        height: 20rem;
+    }
+
     &__container {
         width: 105rem;
         height: 35rem;
@@ -15,6 +28,21 @@
         &>*:not(:last-child) {
             margin-right: 10rem;
         }
+
+        @media only screen and (max-width:68.75em) {
+            flex-direction: column;
+            width: 92.5vw;
+            height: 45rem;
+        }
+
+        @media only screen and (max-width:45em) {
+            height: 83.1rem;
+        }
+
+        @media only screen and (max-width:19.375em) {
+            height: 10rem;
+        }
+
     }
 
     &__left, &__mid {
@@ -23,6 +51,36 @@
         height: 100%;
         flex: 1;
         //justify-content: center;
+
+        
+    }
+
+    &__links {
+        height: 100%;
+        display: flex;
+        flex: 1;
+        &>*:not(:last-child) {
+            margin-right: 10rem;
+        }
+
+        @media only screen and (max-width:68.75em) {
+            &:nth-child(1) {
+                margin-right: 0;
+            }
+        }
+
+        @media only screen and (max-width:45em) {
+            flex-direction: column;
+            width: 100%;
+
+            &>*:not(:last-child) {
+                margin-right: 0;
+            }
+        }
+
+        @media only screen and (max-width:19.375em) {
+            display: none;
+        }
     }
 
     &__item {
@@ -58,5 +116,9 @@
         width: 25rem;
         height: 10rem;
         margin-bottom: 1.75rem;
+
+        @media only screen and (max-width:68.75em) {
+            align-self: center;
+        }
     }
 }

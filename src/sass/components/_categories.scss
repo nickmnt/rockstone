@@ -1,5 +1,7 @@
 .categories {
-    height: 170rem;
+    //height: 170rem;
+    padding-top: 3vw;
+    padding-bottom: 10vw;
     width: 100%;
     overflow: hidden;
     background-image: linear-gradient(rgba($color-black, 0.97), rgba($color-black, 0.94));
@@ -9,6 +11,19 @@
 
     &__container {
         width: 120rem;
+
+        @media only screen and (max-width:75em) {
+            width: 90vw
+        }
+        
+        @media only screen and (max-width:62.5em) {
+            grid-template-columns: 1fr 1fr;
+        }
+
+        @media only screen and (max-width:46.875em) {
+            grid-template-columns: 1fr;
+        }
+
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         grid-gap: 2rem;

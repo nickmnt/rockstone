@@ -4,52 +4,54 @@ export default function Footer() {
   return (
     <div className="footer">
         <div className="footer__container">
+            <div className="footer__links">
 
-            <div className="footer__left">
-                <a href="#" className="footer__item">
-                Rent
-                </a>
-                <a href="#" className="footer__item">
-                Investor Relations
-                </a>
-                <a href="#" className="footer__item">
-                Press release
-                </a>
-                <a href="#" className="footer__item">
-                Blog
-                </a>
-                <a href="#" className="footer__item">
-                Rockstone in the news
-                </a>
-                <a href="#" className="footer__item">
-                Industry news
-                </a>
-                <a href="#" className="footer__item">
-                Mortgage calculator
-                </a>
-            </div>
-            <div className="footer__mid">
-                <a href="#" className="footer__item">
-                Careers
-                </a>
-                <a href="#" className="footer__item">
-                Contact us
-                </a>
-                <a href="#" className="footer__item">
-                Sitemap
-                </a>
-                <a href="#" className="footer__item">
-                Terms & conditions
-                </a>
-                <a href="#" className="footer__item">
-                Cookie policy
-                </a>
-                <a href="#" className="footer__item">
-                Privacy policy
-                </a>
-                <a href="#" className="footer__item">
-                Building documentation
-                </a>
+                <div className="footer__left">
+                    <a href="#" className="footer__item">
+                    Rent
+                    </a>
+                    <a href="#" className="footer__item">
+                    Investor Relations
+                    </a>
+                    <a href="#" className="footer__item">
+                    Press release
+                    </a>
+                    <a href="#" className="footer__item">
+                    Blog
+                    </a>
+                    <a href="#" className="footer__item">
+                    Rockstone in the news
+                    </a>
+                    <a href="#" className="footer__item">
+                    Industry news
+                    </a>
+                    <a href="#" className="footer__item">
+                    Mortgage calculator
+                    </a>
+                </div>
+                <div className="footer__mid">
+                    <a href="#" className="footer__item">
+                    Careers
+                    </a>
+                    <a href="#" className="footer__item">
+                    Contact us
+                    </a>
+                    <a href="#" className="footer__item">
+                    Sitemap
+                    </a>
+                    <a href="#" className="footer__item">
+                    Terms & conditions
+                    </a>
+                    <a href="#" className="footer__item">
+                    Cookie policy
+                    </a>
+                    <a href="#" className="footer__item">
+                    Privacy policy
+                    </a>
+                    <a href="#" className="footer__item">
+                    Building documentation
+                    </a>
+                </div>
             </div>
             <div className="footer__right">
                 <svg

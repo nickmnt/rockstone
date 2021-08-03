@@ -1,9 +1,12 @@
 .card {
     //background-image: linear-gradient(rgba($color-black,.8),rgba($color-black,.8));
     //background-image: linear-gradient(rgba($color-black, .8),rgba($color-black, .8)),url('../../images/montreal.jfif');
-    
-    height: 100%;
-    width: 30rem;
+    background-color: red;
+    &::before {
+        content: "";
+        padding-bottom: 100%;
+        display: block;
+      }
     display: flex;
     box-shadow: 0 0 .25rem rgba($color-gold, 0.5);
 
@@ -24,11 +27,11 @@
 
     &__header {
         //margin-top: 1.5rem;
-        font-size: 3rem;
+        font-size: 3vw;
         font-weight: 600;
         color: $color-white;
         cursor: pointer;
-        margin-bottom: 2.75rem;
+        margin-bottom: 2.25vw;
         margin-top: 2.25rem;
         transition: .2s all;
 
@@ -36,9 +39,20 @@
             color: $color-gold;
             transform: scale(1.1);
         }
+
+        @media only screen and (max-width:44.375em) {
+            font-size: 7vw;
+         }
     }
 
+    position: relative;
+
     &__container {
+        position: absolute;
+        top: 0; left: 0;
+        height: 100%;
+        width: 100%;
+
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -46,9 +60,25 @@
     }
 
     &__text {
-        font-size: 1.5rem;
+        font-size: 1.4vw;
         font-weight: 400;
         margin: 2rem;
         margin-top: 0;
+
+        @media only screen and (max-width:68.75em) {
+            font-size: 2.2vw;
+         }
+
+         @media only screen and (max-width:44.375em) {
+            font-size: 5.5vw;
+         }
+
+         @media only screen and (max-width:31.875em) {
+            font-size: 4.75vw;
+         }
+
+         @media only screen and (max-width:20em) {
+            font-size: 4vw;
+         }
     }
 }
