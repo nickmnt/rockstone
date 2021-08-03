@@ -3,6 +3,7 @@ import Intro from './intro';
 import Locations from './locations';
 import Category from './categories';
 import Footer from '../../components/footer';
+import MobileBar from '../../components/mobile-bar';
 
 export default function Home() {
 
@@ -43,6 +44,7 @@ export default function Home() {
             <Locations />
             <Category />
             <Footer />
+            <MobileBar />
         </div>
     )
 }
