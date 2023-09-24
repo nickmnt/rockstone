@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/rockstone/static/css/main.ed076807.chunk.css",
-    "main.js": "/rockstone/static/js/main.7a54f854.chunk.js",
-    "main.js.map": "/rockstone/static/js/main.7a54f854.chunk.js.map",
-    "runtime-main.js": "/rockstone/static/js/runtime-main.26f70dbc.js",
-    "runtime-main.js.map": "/rockstone/static/js/runtime-main.26f70dbc.js.map",
-    "static/js/2.1a29f76d.chunk.js": "/rockstone/static/js/2.1a29f76d.chunk.js",
-    "static/js/2.1a29f76d.chunk.js.map": "/rockstone/static/js/2.1a29f76d.chunk.js.map",
-    "index.html": "/rockstone/index.html",
-    "static/css/main.ed076807.chunk.css.map": "/rockstone/static/css/main.ed076807.chunk.css.map",
-    "static/js/2.1a29f76d.chunk.js.LICENSE.txt": "/rockstone/static/js/2.1a29f76d.chunk.js.LICENSE.txt",
-    "static/media/main.scss": "/rockstone/static/media/vancouver.02895401.jpg"
+    "main.css": "/static/css/main.282fc466.chunk.css",
+    "main.js": "/static/js/main.cd2612c4.chunk.js",
+    "main.js.map": "/static/js/main.cd2612c4.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.de165069.js",
+    "runtime-main.js.map": "/static/js/runtime-main.de165069.js.map",
+    "static/js/2.acbfc07d.chunk.js": "/static/js/2.acbfc07d.chunk.js",
+    "static/js/2.acbfc07d.chunk.js.map": "/static/js/2.acbfc07d.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.282fc466.chunk.css.map": "/static/css/main.282fc466.chunk.css.map",
+    "static/js/2.acbfc07d.chunk.js.LICENSE.txt": "/static/js/2.acbfc07d.chunk.js.LICENSE.txt",
+    "static/media/main.scss": "/static/media/vancouver.02895401.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.26f70dbc.js",
-    "static/js/2.1a29f76d.chunk.js",
-    "static/css/main.ed076807.chunk.css",
-    "static/js/main.7a54f854.chunk.js"
+    "static/js/runtime-main.de165069.js",
+    "static/js/2.acbfc07d.chunk.js",
+    "static/css/main.282fc466.chunk.css",
+    "static/js/main.cd2612c4.chunk.js"
   ]
 }
