@@ -1,21 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.282fc466.chunk.css",
-    "main.js": "/static/js/main.cd2612c4.chunk.js",
-    "main.js.map": "/static/js/main.cd2612c4.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.de165069.js",
-    "runtime-main.js.map": "/static/js/runtime-main.de165069.js.map",
-    "static/js/2.acbfc07d.chunk.js": "/static/js/2.acbfc07d.chunk.js",
-    "static/js/2.acbfc07d.chunk.js.map": "/static/js/2.acbfc07d.chunk.js.map",
+    "main.css": "/static/css/main.b24beea2.css",
+    "main.js": "/static/js/main.756065ae.js",
+    "static/media/vancouver.jpg": "/static/media/vancouver.02895401719e71d53ebd.jpg",
+    "static/media/montreal.jfif": "/static/media/montreal.91b6f09259972d9785bd.jfif",
+    "static/media/toronto.jpg": "/static/media/toronto.14c3c89af63aaa3b32d6.jpg",
     "index.html": "/index.html",
-    "static/css/main.282fc466.chunk.css.map": "/static/css/main.282fc466.chunk.css.map",
-    "static/js/2.acbfc07d.chunk.js.LICENSE.txt": "/static/js/2.acbfc07d.chunk.js.LICENSE.txt",
-    "static/media/main.scss": "/static/media/vancouver.02895401.jpg"
+    "main.b24beea2.css.map": "/static/css/main.b24beea2.css.map",
+    "main.756065ae.js.map": "/static/js/main.756065ae.js.map"
   },
   "entrypoints": [
-    "static/js/runtime-main.de165069.js",
-    "static/js/2.acbfc07d.chunk.js",
-    "static/css/main.282fc466.chunk.css",
-    "static/js/main.cd2612c4.chunk.js"
+    "static/css/main.b24beea2.css",
+    "static/js/main.756065ae.js"
   ]
 }
