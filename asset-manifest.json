@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.b24beea2.css",
-    "main.js": "/static/js/main.756065ae.js",
-    "static/media/vancouver.jpg": "/static/media/vancouver.02895401719e71d53ebd.jpg",
-    "static/media/montreal.jfif": "/static/media/montreal.91b6f09259972d9785bd.jfif",
-    "static/media/toronto.jpg": "/static/media/toronto.14c3c89af63aaa3b32d6.jpg",
-    "index.html": "/index.html",
-    "main.b24beea2.css.map": "/static/css/main.b24beea2.css.map",
-    "main.756065ae.js.map": "/static/js/main.756065ae.js.map"
+    "main.css": "./static/css/main.a943fda7.css",
+    "main.js": "./static/js/main.756065ae.js",
+    "static/media/vancouver.jpg": "./static/media/vancouver.02895401719e71d53ebd.jpg",
+    "static/media/montreal.jfif": "./static/media/montreal.91b6f09259972d9785bd.jfif",
+    "static/media/toronto.jpg": "./static/media/toronto.14c3c89af63aaa3b32d6.jpg",
+    "index.html": "./index.html",
+    "main.a943fda7.css.map": "./static/css/main.a943fda7.css.map",
+    "main.756065ae.js.map": "./static/js/main.756065ae.js.map"
   },
   "entrypoints": [
-    "static/css/main.b24beea2.css",
+    "static/css/main.a943fda7.css",
     "static/js/main.756065ae.js"
   ]
 }
