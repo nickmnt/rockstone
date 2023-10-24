@@ -1,5 +1,9 @@
 # Rockstone
 
+<h2 align="center">
+  <a href="https://photos.app.goo.gl/8a4wveWNmUdTqq3Q8">📷 𝙲𝚕𝚒𝚌𝚔 𝚝𝚘 𝚜𝚎𝚎 𝚜𝚌𝚛𝚎𝚎𝚗𝚜𝚑𝚘𝚝𝚜</a>
+</h2>
+
 This responsive static website was designed and developed by myself to master React, Sass, Advanced CSS, and HTML.
 
 ## Table of Contents
