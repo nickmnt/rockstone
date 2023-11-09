@@ -22,7 +22,7 @@ This responsive static website was designed and developed by myself to master Re
 
 ## Demo
 
-Visit **[click](https://nimamt.github.io/rockstone/)**.
+Visit **[click](https://nickmnt.github.io/rockstone/)**.
 
 ## Installation
 
