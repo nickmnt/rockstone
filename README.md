@@ -1,8 +1,16 @@
 # Rockstone
 
-<h2 align="center">
-  <a href="https://photos.app.goo.gl/8a4wveWNmUdTqq3Q8">📷 𝙲𝚕𝚒𝚌𝚔 𝚝𝚘 𝚜𝚎𝚎 𝚜𝚌𝚛𝚎𝚎𝚗𝚜𝚑𝚘𝚝𝚜</a>
-</h2>
+## 📷 Screenshots
+
+<details>
+  <summary>Screenshots (Hidden) - Click to open!</summary>
+  <img src="https://github.com/nickmnt/instagram/blob/master/screenshots/Start.png?raw=true" alt="Screenshot"></img>
+  <img src="https://github.com/nickmnt/instagram/blob/master/screenshots/Middle.png?raw=true" alt="Screenshot"></img>
+  <img src="https://github.com/nickmnt/instagram/blob/master/screenshots/Cards.png?raw=true" alt="Screenshot"></img>
+  <img src="https://github.com/nickmnt/instagram/blob/master/screenshots/Footer.png?raw=true" alt="Screenshot"></img>
+</details>
+
+## Summary
 
 This responsive static website was designed and developed by myself to master React, Sass, Advanced CSS, and HTML.
 
