@@ -4,10 +4,10 @@
 
 <details>
   <summary>Screenshots (Hidden) - Click to open!</summary>
-  <img src="https://github.com/nickmnt/instagram/blob/master/screenshots/Start.png?raw=true" alt="Screenshot"></img>
-  <img src="https://github.com/nickmnt/instagram/blob/master/screenshots/Middle.png?raw=true" alt="Screenshot"></img>
-  <img src="https://github.com/nickmnt/instagram/blob/master/screenshots/Cards.png?raw=true" alt="Screenshot"></img>
-  <img src="https://github.com/nickmnt/instagram/blob/master/screenshots/Footer.png?raw=true" alt="Screenshot"></img>
+  <img src="https://github.com/nickmnt/rockstone/blob/master/screenshots/Start.png?raw=true" alt="Screenshot"></img>
+  <img src="https://github.com/nickmnt/rockstone/blob/master/screenshots/Middle.png?raw=true" alt="Screenshot"></img>
+  <img src="https://github.com/nickmnt/rockstone/blob/master/screenshots/Cards.png?raw=true" alt="Screenshot"></img>
+  <img src="https://github.com/nickmnt/rockstone/blob/master/screenshots/Footer.png?raw=true" alt="Screenshot"></img>
 </details>
 
 ## Summary
